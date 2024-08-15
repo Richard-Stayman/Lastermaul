@@ -110,49 +110,49 @@ TEXTURE2
 
 ; List of Sounds
 [sounds]
-DEFAULT		ARTIUP   ; Jute Gyte
-BLANK		SWITCH ; Jute Gyte
-FGTDDTH	IMPDTH   ; SuperSomariDX ; All FGT* and pois2 sounds from LibreQuake attic
-FGTCDTH	IMPDTH   ; SuperSomariDX
-FGTXDTH1	IMPDTH   ; SuperSomariDX
-FGTXDTH2	IMPDTH   ; SuperSomariDX
-FGTXDTH3	IMPDTH   ; SuperSomariDX
-PLRDTH		PLRCDTH  ; Jute
-PLRCDTH	
-CLXDTH1	PLRCDTH  ; Jute
-CLXDTH2	PLRCDTH  ; Jute
-CLXDTH3	PLRCDTH  ; Jute
-MGDTH		PLRDTH   ; RottKing
-MGCDTH		PLRDTH   ; RottKing
-MGXDTH1	PLRDTH   ; RottKing
-MGXDTH2	PLRDTH   ; RottKing
-MGXDTH3	PLRDTH   ; RottKing
-FGTPAIN		IMPPAI2 	; SuperSomariDX
-PLRPAIN3	PLRPAI   ; RottKing
-MGPAIN		PLRPAI   ; RottKing
-FGTGRUNT	PLROOF   ; RottKing
-GRUNT1		PLROOF   ; RottKing
-MGGRUNT	PLROOF   ; RottKing
-FEET4		PHOPOW   ; SuperSomariDX
-POIS2		PLRPAI   ; RottKing
-FGTFALL		KGTDTH	; AntonR - CC0/public domai﻿n
-FALL1		PLRWDTH  ; Jute
-MGFALL		PLRWDTH  ; Jute
-FALLHIT		RIPSLOP  ; Jute
-PLRBURN	PLRPAI   ; RottKing
-PUNCHMIS	CLKATK   ; Artisticdude
-PUNCH8		STFHIT   ; SuperSomariDX
-MUMPUN5	IMPAT2   ; Jute
-AXE5		SWITCH   ; Jute Gyte
-HAMMIS2	SWITCH   ; Jute Gyte
-HAMWAL1	SWITCH   ; Jute Gyte
-HMHIT1A		SWITCH   ; Jute Gyte
-HAMFLY1	SWITCH   ; Jute Gyte
-IMPACT3		SWITCH   ; Jute Gyte
-SWORD2	SWITCH   ; Jute Gyte
-GNTMIS1		SWITCH   ; Jute Gyte
-SPELL1		SWITCH   ; Jute Gyte
-GLBHIT4		SWITCH   ; Jute Gyte
+DEFAULT		ART1	; PLACE HOLDER
+BLANK		PUP4	; PLACE HOLDER
+FGTDDTH		; All FGT* and pois2 sounds from LibreQuake attic
+FGTCDTH
+FGTXDTH1	FGTXDTH3	; PLACE HOLDER
+FGTXDTH2	FGTXDTH3	; PLACE HOLDER
+FGTXDTH3	
+PLRDTH		; (Freedoom)
+PLRCDTH		FALL1 ; PLACE HOLDER
+CLXDTH1	FALL1  ; PLACE HOLDER
+CLXDTH2	FALL1  ; PLACE HOLDER
+CLXDTH3	FALL1  ; PLACE HOLDER
+MGDTH		; RottKing (Blasphemer)
+MGCDTH		; RottKing (Blasphemer)
+MGXDTH1		; RottKing (Blasphemer)
+MGXDTH2	MGXDTH1	; PLACE HOLDER
+MGXDTH3	MGXDTH1	; PLACE HOLDER
+FGTPAIN		; (LibreQuake attic)
+PLRPAIN3	; (Freedoom)
+MGPAIN		; RottKing (Blasphemer)
+FGTGRUNT	; (LibreQuake attic)
+GRUNT1		; (Freedoom)
+MGGRUNT		; RottKing (Blasphemer)
+FEET4		; (Freedoom)
+POIS2		; (LibreQuake attic)
+FGTFALL		; (LibreQuake attic)
+FALL1		; (Freedoom)
+MGFALL		; RottKing (Blasphemer)
+FALLHIT		; apophis (LibTech1)
+PLRBURN	PLRPAIN3   ; PLACE HOLDER
+PUNCHMIS	; (Freedoom)
+PUNCH8		FALLHIT   ; PLACE HOLDER
+MUMPUN5	FALLHIT   ; PLACE HOLDER
+AXE5		FALLHIT   ; PLACE HOLDER
+HAMMIS2	FALLHIT   ; Jute Gyte
+HAMWAL1	FALLHIT   ; Jute Gyte
+HMHIT1A		FALLHIT   ; Jute Gyte
+HAMFLY1	FALLHIT   ; Jute Gyte
+IMPACT3		FALLHIT   ; Jute Gyte
+SWORD2	FALLHIT   ; Jute Gyte
+GNTMIS1		FALLHIT   ; Jute Gyte
+SPELL1		FALLHIT   ; Jute Gyte
+GLBHIT4		FALLHIT   ; Jute Gyte
 VAMP5		SWITCH   ; Jute Gyte
 STRIKE3		SWITCH   ; Jute Gyte
 STRIKE1		SWITCH   ; Jute Gyte
@@ -212,25 +212,25 @@ MINPAIN4	SWITCH   ; Jute Gyte
 HAMBLO8A	SWITCH   ; Jute Gyte
 HAMFIR1		SWITCH   ; Jute Gyte
 MINDTH4	SWITCH   ; Jute Gyte
-CENT2		SWITCH   ; Jute Gyte
-CENT1		SWITCH   ; Jute Gyte
+CENT2		; SuperSomariDX
+CENT1		; SuperSomariDX
 ETHIT1		SWITCH   ; Jute Gyte
 SPAWN3		SWITCH   ; Jute Gyte
-FIRED5		SWITCH   ; Jute Gyte
-FIRED2		SWITCH   ; Jute Gyte
+FIRED5		; AntonR
+FIRED2		; AntonR
 SPIT6		SWITCH   ; Jute Gyte
-FIRED3		SWITCH   ; Jute Gyte
-FROSTY1		SWITCH   ; Jute Gyte
-FROSTY2		SWITCH   ; Jute Gyte
+FIRED3		; AntonR
+FROSTY1		; AntonR
+FROSTY2		; AntonR
 SORBOSS1	SWITCH   ; Jute Gyte
 SORBOSS2	SWITCH   ; Jute Gyte
 SORBOSS3	SWITCH   ; Jute Gyte
-WOOSH3	SWITCH   ; Jute Gyte
+WOOSH3		; AntonR
 BALLS1		SWITCH   ; Jute Gyte
 SORDIE2		SWITCH   ; Jute Gyte
 BISHAPP		SWITCH   ; Jute Gyte
 CORK		SWITCH   ; Jute Gyte
-BOUNCE2	SWITCH   ; Jute Gyte
+BOUNCE2		; (Freedoom)
 SORBLEXP	SWITCH   ; Jute Gyte
 DRAGSIT1	SWITCH   ; Jute Gyte
 WING1		SWITCH   ; Jute Gyte
@@ -242,7 +242,7 @@ KORPN1		SWITCH   ; Jute Gyte
 KORATK		SWITCH   ; Jute Gyte
 KORCOM		SWITCH   ; Jute Gyte
 KORDTH1	SWITCH   ; Jute Gyte
-STEP		SWITCH   ; Jute Gyte
+STEP		; (Freedoom)
 GRTNGS1	SWITCH   ; Jute Gyte
 READY1		SWITCH   ; Jute Gyte
 BLOOD1		SWITCH   ; Jute Gyte
@@ -252,7 +252,7 @@ WRSHIP1	SWITCH   ; Jute Gyte
 MAYBE1		SWITCH   ; Jute Gyte
 STRONG1	SWITCH   ; Jute Gyte
 FACE1		SWITCH   ; Jute Gyte
-PUP4		SWITCH   ; Jute Gyte
+PUP4		; RottKing (Freedoom attic)
 DORSTP3	SWITCH   ; Jute Gyte
 MTLSTRT1	SWITCH   ; Jute Gyte
 DORSTP1B	SWITCH   ; Jute Gyte
@@ -272,23 +272,23 @@ ICEMV2		SWITCH   ; Jute Gyte
 QUAKE2		SWITCH   ; Jute Gyte
 SAMPLE11		SWITCH   ; Jute Gyte
 ART1		; AntonR
-KEYS2A		SWITCH   ; Jute Gyte
-PICUP5		SWITCH   ; Jute Gyte
+KEYS2A		; AntonR
+PICUP5		; MoonDeLaAxel (Blasphemer)
 PIECE1		SWITCH   ; Jute Gyte
 ARTACT1		SWITCH   ; Jute Gyte
 RESPAWN		SWITCH   ; Jute Gyte
-FGTHMM		SWITCH   ; Jute Gyte
-CLHMM		SWITCH   ; Jute Gyte
-MGHMM		SWITCH   ; Jute Gyte
+FGTHMM		; (LibreQuake attic)
+CLHMM		; (Freedoom)
+MGHMM		CLHMM   ; PLACE HOLDER
 PUZSLV		SWITCH   ; Jute Gyte
-CHAT3		; Jute Gyte
+CHAT3		; Jute Gyte (Blasphemer)
 BATS		SWITCH   ; Jute Gyte
 	
 TICTOC	SWITCH   ; Jute Gyte
 	
 ETHPORT1	SWITCH   ; Jute Gyte
 CHNSWCH8	SWITCH   ; Jute Gyte
-SWTCH6		SWITCH   ; Jute Gyte
+SWTCH6		; AntonR
 PUZSLV1		SWITCH   ; Jute Gyte
 SWTCHV4		SWITCH   ; Jute Gyte
 SWTCHRP1		SWITCH   ; Jute Gyte
@@ -303,12 +303,12 @@ PUFF1	SWITCH   ; Jute Gyte
 TORCH2	SWITCH   ; Jute Gyte
 GLASS5	SWITCH   ; Jute Gyte
 FLECH4	SWITCH   ; Jute Gyte
-THNDR1	SWITCH   ; Jute Gyte
-TPORT1	SWITCH   ; Jute Gyte
+THNDR1	; (LibreQuake)
+TPORT1	; AntonR
 POTBRK1	SWITCH   ; Jute Gyte
 BLDDRP1	SWITCH   ; Jute Gyte
 	
-WIND3	SWITCH   ; Jute Gyte
+WIND3	; (Blasphemer)
 SPIKE3	SWITCH   ; Jute Gyte
 SPIKE2	SWITCH   ; Jute Gyte
 ICEDTH1	SWITCH   ; Jute Gyte
@@ -329,7 +329,7 @@ BUBBLE	SWITCH   ; Jute Gyte
 DROP2	SWITCH   ; Jute Gyte
 ROCKS	SWITCH   ; Jute Gyte
 CHAINS	SWITCH   ; Jute Gyte
-GONG	SWITCH   ; Jute Gyte
+GONG	; (Blasphemer)
 STEEL1	SWITCH   ; Jute Gyte
 STEEL2	SWITCH   ; Jute Gyte
 DSSECRET ; MoonDeLaAxel (Blasphemer)
@@ -340,21 +340,21 @@ WINNOWR	MUS_TITL
 JACHR	MUS_TITL
 SIMONR	MUS_TITL
 WUTZITR	MUS_TITL
-FALCONR	MUS_TITL
+FALCONR	; "Mystified" by Tristan Clark (Rebith MIDI Pack)
 LEVELR	MUS_TITL
 CHARTR	MUS_TITL
 SWAMPR	MUS_TITL
-DEEPR	MUS_TITL
-FUBASR	MUS_TITL
+DEEPR	; "Sombre Visions" by Tristan Clark (Rebith MIDI Pack)
+FUBASR	; "Shadows" by Tristan Clark (Rebith MIDI Pack)
 GROVER	MUS_TITL
 FORTR	MUS_TITL
 FOOJAR	MUS_TITL
 SIXATER	MUS_TITL
 WOBABYR	MUS_TITL
-CRYPTR	MUS_TITL
+CRYPTR	; "Thanatos" by Tristan Clark (Rebith MIDI Pack)
 FANTAR	MUS_TITL
 BLECHR	MUS_TITL
-VOIDR	MUS_TITL
+VOIDR	; "The Occultist" by Tristan Clark (Realm of Parthoris)
 CHAP_1R		MUS_TITL
 CHAP_2R		MUS_TITL
 CHAP_3R		MUS_TITL
@@ -2205,7 +2205,7 @@ FDMBB0		GOD1	16	21
 FDMBC0		GOD1	15	20
 FDMBD0		GOD1	12	16
 FDMBE0		GOD1	12	16
-ICEYA1		GOD1	32	65
+ICEYA1		GOD1	32	65	; raymoohawk (Freedoom attic)
 ICEYB1		GOD1	40	69
 ICEYC1		GOD1	31	66
 ICEYD1		GOD1	37	68
