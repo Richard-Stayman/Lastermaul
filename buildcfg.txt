@@ -337,21 +337,21 @@ DSSECRET ; MoonDeLaAxel (Blasphemer)
 ; List of Musics
 [musics]
 WINNOWR	MUS_TITL
-JACHR	MUS_TITL
+JACHR	; "Mystic Tides" by Alfonzo (Realm of Parthoris)
 SIMONR	MUS_TITL
 WUTZITR	MUS_TITL
-FALCONR	; "Mystified" by Tristan Clark (Rebith MIDI Pack)
+FALCONR	; "Mystified" by Tristan Clark (Rebirth MIDI Pack)
 LEVELR	MUS_TITL
 CHARTR	MUS_TITL
 SWAMPR	MUS_TITL
-DEEPR	; "Sombre Visions" by Tristan Clark (Rebith MIDI Pack)
-FUBASR	; "Shadows" by Tristan Clark (Rebith MIDI Pack)
+DEEPR	; "Sombre Visions" by Tristan Clark (Rebirth MIDI Pack)
+FUBASR	; "Shadows" by Tristan Clark (Rebirth MIDI Pack)
 GROVER	MUS_TITL
 FORTR	MUS_TITL
 FOOJAR	MUS_TITL
 SIXATER	MUS_TITL
 WOBABYR	MUS_TITL
-CRYPTR	; "Thanatos" by Tristan Clark (Rebith MIDI Pack)
+CRYPTR	; "Thanatos" by Tristan Clark (Rebirth MIDI Pack)
 FANTAR	MUS_TITL
 BLECHR	MUS_TITL
 VOIDR	; "The Occultist" by Tristan Clark (Realm of Parthoris)
