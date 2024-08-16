@@ -329,7 +329,7 @@ DSSECRET ; MoonDeLaAxel (Blasphemer)
 
 ; List of Musics
 [musics]
-WINNOWR	MUS_TITL
+WINNOWR	; "Oracle Night" by Alfonzo (Realm of Parthoris)
 JACHR	; "Mystic Tides" by Alfonzo (Realm of Parthoris)
 SIMONR	; "Plasma" by Ilkallio (Realm of Parthoris)
 WUTZITR	MUS_TITL
@@ -339,7 +339,7 @@ CHARTR	MUS_TITL
 SWAMPR	MUS_TITL
 DEEPR	; "Sombre Visions" by Tristan Clark (Rebirth MIDI Pack)
 FUBASR	; "Shadows" by Tristan Clark (Rebirth MIDI Pack)
-GROVER	MUS_TITL
+GROVER	; "Frigid Weald" by Lippeth (Misc Hexen MIDIs)
 FORTR	MUS_TITL
 FOOJAR	MUS_TITL
 SIXATER	MUS_TITL
@@ -3821,12 +3821,12 @@ W_363	WALL501
 W_364	WALL501
 W_365	WALL501
 SKY1
-SKY2	SKY1
-SKY2A	SKY1
-SKY3	SKY1
+SKY2
+SKY2A
+SKY3
 SKYWALL	SKY1
 SKYWALL2	SKY1
-SKYFOG	SKY1
+SKYFOG
 SKYFOG2	SKY1
 WALL501
 SKY2	SKY1
