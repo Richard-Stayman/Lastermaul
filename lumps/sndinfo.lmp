@@ -1,4 +1,6 @@
-; SNDINFO
+; SPDX-License-Identifier: BSD-3-Clause
+
+; Lastermaul SNDINFO
 ; Copy-pasted entirely from original Hexen for compatibility purposes
 
 $ARCHIVEPATH            o:\sound\archive\

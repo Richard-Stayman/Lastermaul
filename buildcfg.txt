@@ -37,6 +37,7 @@ MAP40	HEX_PH
 
 ; List of data Lumps
 [lumps]
+LSTRMAUL	; Empty tag lump
 IWADINFO	; Georgy Samoilov
 LANGUAGE	; Georgy Samoilov
 PLAYPAL		; Da Werecat (Blasphemer pal), ReaperAA (CronosPal)
@@ -193,11 +194,11 @@ MINACT1		SWITCH   ; Jute Gyte
 DEMATK2	SWITCH   ; Jute Gyte
 SBTDTH3	SWITCH   ; Jute Gyte
 IMPFIRE2	SWITCH   ; Jute Gyte
-RAITH5A		SWITCH   ; Jute Gyte
-RAITH3		SWITCH   ; Jute Gyte
-RAITH4A		SWITCH   ; Jute Gyte
-RAITH1B		SWITCH   ; Jute Gyte
-RATHDTH2	SWITCH   ; Jute Gyte
+RAITH5A		; (LibreQuake attic)
+RAITH3		; (LibreQuake attic)
+RAITH4A		; (LibreQuake attic)
+RAITH1B		; (LibreQuake attic)
+RATHDTH2	; (LibreQuake attic)
 MINSIT1		SWITCH   ; Jute Gyte
 MINACT2		SWITCH   ; Jute Gyte
 MINPAIN4	SWITCH   ; Jute Gyte
@@ -832,11 +833,11 @@ FAXEU0		GOD1	26	26
 FAXEV0		GOD1	26	26
 FAXEW0		GOD1	21	24
 FAXEX0		GOD1	21	24
-FHMRA0		GOD1	-167	-84
-FHMRB0		GOD1	-253	20
-FHMRC0		GOD1	-150	11
-FHMRD0		GOD1	-87	-61
-FHMRE0		GOD1	-62	-120
+FHMRA0    FSRDA0        -167    -84
+FHMRB0    FSRDA0            -253    20
+FHMRC0            FSRDA0            -150    11
+FHMRD0        FSRDA0            -87    -61
+FHMRE0        FSRDA0            -62    -120
 FHFXA1		GOD1	8	19
 FHFXB1		GOD1	7	19
 FHFXC1		GOD1	5	29
@@ -1054,8 +1055,8 @@ SPIRR0			GOD1		8	7
 SPIRS0			GOD1		8	7
 SPIRT0			GOD1		7	6
 SPIRU0			GOD1		7	5
-MWNDA0			-125	-112	; Blox (Blasphemer attic)
-MWNDB0			-115	-100
+MWNDA0			-139	-77	; Blox (Blasphemer attic)
+MWNDB0			-138	-67
 MWNDC0			GOD1		3	3
 MWNDD0			GOD1		3	3
 MWNDE0			GOD1		7	7
@@ -1843,7 +1844,7 @@ D2FXI0		GOD1	29	28
 D2FXJ0		GOD1	36	30
 D2FXK0		GOD1	37	32
 D2FXL0		GOD1	33	32
-WRTHA1		GOD1	29	52
+WRTHA1		GOD1	29	52	; Amuscaria (Demon Eclipse)
 WRTHA2A8		GOD1	42	51
 WRTHA3A7		GOD1	49	50
 WRTHA4A6		GOD1	44	48
@@ -1928,7 +1929,7 @@ WRBLW0		GOD1	2	2
 WRBLX0		GOD1	4	3
 WRBLY0		GOD1	1	3
 WRBLZ0		GOD1	1	2
-DRAGA1	FDMNA1	40	100
+DRAGA1	FDMNA1	40	100	; Amuscaria (Demon Eclipse)
 DRAGB1	FDMNA1	71	79
 DRAGC1 FDMNA1		61	75
 DRAGD1	FDMNA1	45	75
@@ -2755,8 +2756,8 @@ RCK1A0		GOD1	7	4
 RCK2A0		GOD1	10	8
 RCK3A0		GOD1	14	15
 RCK4A0		GOD1	24	19
-TRE1A0		GOD1	43	132	; Korp (Freedoom attic)
-STM1A0		24	35	; Cascade (Freedoom attic)
+TRE1A0            43    132    ; Korp (Freedoom attic)
+STM1A0                ; Cascade (Freedoom attic)
 STM2A0		GOD1	25	29
 MSH1A0		GOD1	15	22	; ETTiNGRiNDER
 MSH2A0		GOD1	13	22
@@ -2773,14 +2774,14 @@ SGM3A0		GOD1	14	41
 SLC1A0		GOD1	17	67
 SLC2A0		GOD1	12	51
 SLC3A0		GOD1	15	41
-STM3A0		13	23	; Korp (Freedoom attic)
-STM4A0		12	33	; Cascade (Freedoom attic)
+STM3A0                ; Korp (Freedoom attic)
+STM4A0                ; Cascade (Freedoom attic)
 MSS1A0		GOD1	18	21
 MSS2A0		GOD1	15	26
 SWMVA0		GOD1	22	65 ; Sergeant Mark V (Freedoom)
 CPS1A0		9	108	; NMN
 CPS2A0		24	10	; NMN
-TRE2A0		GOD1	51	178 ; (Freedoom)
+TRE2A0            51    178 ; (Freedoom)
 TRE3A0		GOD1	45	151
 SLTRA0		GOD1	23	47
 CPS3A0		GOD1	11	75
@@ -2799,10 +2800,10 @@ RKBKA0		30	37	; NMN
 RBL1A0		GOD1	21	8
 RBL2A0		GOD1	14	5
 RBL3A0		GOD1	15	8
-TRE4A0		73	185	; Cascade (Freedoom attic)
-TRE5A0		72	185	; Cascade (Freedoom attic)
-TRE6A0		56	121	; Korp (Freedoom attic)
-TRE7A0		55	121	; Korp (Freedoom attic)
+TRE4A0                ; Cascade (Freedoom attic)
+TRE5A0                ; Cascade (Freedoom attic)
+TRE6A0                ; Korp (Freedoom attic)
+TRE7A0                ; Korp (Freedoom attic)
 LEF1A0		GOD1	6	3
 LEF1B0		GOD1	8	4
 LEF1C0		GOD1	7	3
@@ -2923,16 +2924,16 @@ BRTRJ0		GOD1	13	59
 BRTRK0		GOD1	13	59
 BRTRL0		GOD1	13	55
 BRTRM0		GOD1	13	56
-GAR1A0		25	119	; Craneo (Blasphemer), Cascade (Freedoom attic)
-GAR2A0		25	119	; NMN, Craneo (Blasphemer attic), Cascade (Freedoom attic)
-GAR3A0		25	119	; Craneo (Blasphemer attic), Cascade (Freedoom attic)
-GAR4A0		25	119	; Stilgar (Blasphemer attic), Cascade (Freedoom attic)
+GAR1A0                ; Craneo (Blasphemer), Cascade (Freedoom attic)
+GAR2A0                ; NMN, Craneo (Blasphemer attic), Cascade (Freedoom attic)
+GAR3A0                ; Craneo (Blasphemer attic), Cascade (Freedoom attic)
+GAR4A0                ; Stilgar (Blasphemer attic), Cascade (Freedoom attic)
 GAR5A0		GOD1	25	119
 GAR6A0		GOD1	25	72
 GAR7A0		GOD1	25	72
 GAR8A0		GOD1	24	72
 GAR9A0		GOD1	25	72
-XMASA0		23	147	; NMN
+XMASA0		18	134	; NMN
 IRONA0		GOD1	23	60
 CDRNA0		GOD1	14	19 ; Cascade
 CDRNB0	GOD1		14	19
@@ -3174,7 +3175,7 @@ FOGLB0		GOD1	116	39
 FOGLC0		GOD1	107	41
 FOGLD0		GOD1	108	43
 FOGLE0		GOD1	96	43
-WFHMA0	GOD1		8	36
+WFHMA0        WMLGA0        8    36
 WFAXA0		6	64	; Amuscaria (Demon Eclipse)
 WMCSA0		GOD1	14	29
 WMCSB0	GOD1		14	29
@@ -3411,9 +3412,9 @@ HRADN0		GOD1	9	60
 HRADO0		GOD1	10	60
 HRADP0		GOD1	12	60
 ARTIHRAD		GOD1	-6	-4
-PTN1A0		GOD1	2	41
-PTN1B0		GOD1	2	41
-PTN1C0		GOD1	2	41
+PTN1A0            2    41
+PTN1B0            2    41
+PTN1C0            2    41
 ARM1A0		15	42 ; Cascade (ShatterEarth)
 ARM2A0		11	42 ; Cascade (ShatterEarth)
 ARM3A0		10	42 ; Cascade (ShatterEarth)

@@ -1,8 +1,8 @@
-= Zauberer
+= Lastermaul
 
-Zauberer is a Hexen-compatible spin-off to Blasphemer.
+Lastermaul is a Hexen-compatible spin-off to Blasphemer.
 
-At the moment, Zaubererer is at a very early stage of development, it also doesn't yet run on any source port other than (g)zdoom. Any help is welcome. Ignore everything below, this is the text of the original blasphemer readme, it will be changed in the future. (Although the advice on contributions is quite useful)
+At the moment, Lastermaul is at a very early stage of development. Any help is welcome. Ignore everything below, this is the text of the original blasphemer readme, it will be changed in the future. (Although the advice on contributions is quite useful)
 
 == How to play
 

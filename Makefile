@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Zauberer build script
+# Lastermaul build script
 
 VERSION=$(shell git describe --abbrev=8 --dirty 2>/dev/null || echo unknown)
 WADS=wads
@@ -10,9 +10,9 @@ DEUTEX=deutex
 DEUTEX_BASIC_ARGS=-v0 -rate accept
 DEUTEX_ARGS=$(DEUTEX_BASIC_ARGS) -hexen bootstrap/
 
-ZAUBERER=$(WADS)/zauberer.wad
+LASTERMAUL=$(WADS)/lastermaul.wad
 
-OBJS=$(ZAUBERER)
+OBJS=$(LASTERMAUL)
 
 all: deutex-check $(OBJS)
 
@@ -45,20 +45,20 @@ lumps/sndcurve.lmp: scripts/blasphemer_sndcurve.py
 	python scripts/blasphemer_sndcurve.py
 
 #---------------------------------------------------------
-# zauberer (1.1) iwad
+# lastermaul (1.1) iwad
 
-wadinfo_zauberer.txt: buildcfg.txt subdirs lumps/zauberer.lmp
-	$(CPP) -P -DZAUBERER < $< > $@
+wadinfo_lastermaul.txt: buildcfg.txt subdirs lumps/lstrmaul.lmp
+	$(CPP) -P -DLASTERMAUL < $< > $@
 
-$(ZAUBERER): wadinfo_zauberer.txt subdirs
+$(LASTERMAUL): wadinfo_lastermaul.txt subdirs
 	@mkdir -p $(WADS)
 	$(RM) $@
-	$(DEUTEX) $(DEUTEX_ARGS) -iwad -build wadinfo_zauberer.txt $@
+	$(DEUTEX) $(DEUTEX_ARGS) -iwad -build wadinfo_lastermaul.txt $@
 
 clean: 
-	rm $(ZAUBERER)
+	rm $(LASTERMAUL)
 	rmdir $(WADS)
-	rm wadinfo_zauberer.txt
+	rm wadinfo_lastermaul.txt
 
 prefix?=/usr/local
 docdir?=/share/doc
@@ -67,7 +67,7 @@ waddir?=/share/games/doom
 target=$(DESTDIR)$(prefix)
 
 install:
-	install -Dm 644 $(ZAUBERER) -t "$(target)$(waddir)"
+	install -Dm 644 $(LASTERMAUL) -t "$(target)$(waddir)"
 
 uninstall:
-	rm "$(target)$(waddir)/zauberer.wad"
+	rm "$(target)$(waddir)/lastermaul.wad"
