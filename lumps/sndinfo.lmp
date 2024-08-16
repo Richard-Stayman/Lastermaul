@@ -128,7 +128,7 @@ CentaurSight            taur1
 CentaurActive           taur2
 CentaurPain             taur4
 CentaurAttack           centhit2
-CentaurDeath            cntdth1
+CentaurDeath            taurdth1
 CentaurLeaderAttack     cntshld4
 CentaurMissileExplode   impact3
 
