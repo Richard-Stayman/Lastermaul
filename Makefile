@@ -20,7 +20,7 @@ subdirs:
 	# $(MAKE) VERSION=$(VERSION) -C lumps/text
 	$(MAKE) -C lumps/genmidi
 	$(MAKE) -C lumps/dmxgus
-	# $(MAKE) -C lumps/textures
+	$(MAKE) -C lumps/textures
 
 #---------------------------------------------------------
 # Build checks
@@ -65,7 +65,7 @@ clean:
 	# $(MAKE) -C lumps/text clean
 	$(MAKE) -C lumps/genmidi clean
 	$(MAKE) -C lumps/dmxgus clean
-	# $(MAKE) -C lumps/textures clean
+	$(MAKE) -C lumps/textures clean
 
 prefix?=/usr/local
 docdir?=/share/doc
