@@ -190,7 +190,7 @@ FireDemonDeath          fired3
 
 ; Ice Guy
 IceGuySight             frosty1
-IceGuyActive            frosty1
+IceGuyActive            frosty3
 IceGuyAttack            frosty2
 IceGuyMissileExplode    shards1b
 

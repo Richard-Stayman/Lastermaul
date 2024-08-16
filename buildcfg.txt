@@ -134,7 +134,7 @@ MGFALL		; RottKing (Blasphemer)
 FALLHIT		; apophis (LibTech1)
 PLRBURN	PLRPAIN3   ; PLACE HOLDER
 PUNCHMIS	; (Freedoom)
-PUNCH8		FALLHIT   ; PLACE HOLDER
+PUNCH8		; (Freedoom)
 MUMPUN5	FALLHIT   ; PLACE HOLDER
 AXE5		FALLHIT   ; PLACE HOLDER
 HAMMIS2	FALLHIT   ; Jute Gyte
@@ -142,7 +142,7 @@ HAMWAL1	FALLHIT   ; Jute Gyte
 HMHIT1A		FALLHIT   ; Jute Gyte
 HAMFLY1	FALLHIT   ; Jute Gyte
 IMPACT3		FALLHIT   ; Jute Gyte
-SWORD2	FALLHIT   ; Jute Gyte
+SWORD2		; (LibreQuake)
 GNTMIS1		FALLHIT   ; Jute Gyte
 SPELL1		FALLHIT   ; Jute Gyte
 GLBHIT4		FALLHIT   ; Jute Gyte
@@ -156,18 +156,18 @@ SPIRT5		SWITCH   ; Jute Gyte
 SPIRTS1		SWITCH   ; Jute Gyte
 WAND4		; AntonR
 LITE2		SWITCH   ; Jute Gyte
-GNTPOW		SWITCH   ; Jute Gyte
+GNTPOW		; MoonDeLaAxel (Blasphemer)
 WEPELE2	SWITCH   ; Jute Gyte
 GNTACT1	SWITCH   ; Jute Gyte
 CONE3		SWITCH   ; Jute Gyte
 SHARDS1B	SWITCH   ; Jute Gyte
 MAGE4		SWITCH   ; Jute Gyte
 MAGEBALL	SWITCH   ; Jute Gyte
-PIGRUNT1	SWITCH   ; Jute Gyte
+PIGRUNT1	; Jute (Blasphemer)
 SQUEAL1	SWITCH   ; Jute Gyte
-PIGPAIN2		SWITCH   ; Jute Gyte
-BITE4		SWITCH   ; Jute Gyte
-PIGDTH2		SWITCH   ; Jute Gyte
+PIGPAIN2	; Jute (Blasphemer)
+BITE4		; (Freedoom)
+PIGDTH2		; Jute (Blasphemer)
 SYAB2D		; (Freedoom)
 STB1D		; apophis (LibTech1)
 BSHPN1		; (Freedoom)
@@ -190,7 +190,7 @@ SRPDTH1	SWITCH   ; Jute Gyte
 SRFC1		SWITCH   ; Jute Gyte
 GLBHISS1	SWITCH   ; Jute Gyte
 SBTSIT5		SWITCH   ; Jute Gyte
-MINACT1		SWITCH   ; Jute Gyte
+MINACT1		MINSIT1 ; PLACEHOLDER
 DEMATK2	SWITCH   ; Jute Gyte
 SBTDTH3	SWITCH   ; Jute Gyte
 IMPFIRE2	SWITCH   ; Jute Gyte
@@ -208,23 +208,23 @@ MINDTH4		; (Freedoom)
 CENT2		; SuperSomariDX (Blasphemer)
 CENT1		; SuperSomariDX (Blasphemer)
 ETHIT1		; SuperSomariDX (Blasphemer)
-SPAWN3		SWITCH   ; Jute Gyte
+SPAWN3		; (Freedoom)
 FIRED5		; AntonR
 FIRED2		; AntonR
-SPIT6		SWITCH   ; Jute Gyte
+SPIT6		; AntonR (Blasphemer)
 FIRED3		; AntonR
-FROSTY1		; AntonR
+FROSTY1		; AntonR (Blasphemer)
 FROSTY2		; AntonR
-SORBOSS1	SWITCH   ; Jute Gyte
-SORBOSS2	SWITCH   ; Jute Gyte
-SORBOSS3	SWITCH   ; Jute Gyte
+SORBOSS1	; (LibreQuake)
+SORBOSS2	; (LibreQuake)
+SORBOSS3	; (LibreQuake)
 WOOSH3		; AntonR
 BALLS1		SWITCH   ; Jute Gyte
-SORDIE2		SWITCH   ; Jute Gyte
+SORDIE2		; (LibreQuake)
 BISHAPP		SWITCH   ; Jute Gyte
 CORK		SWITCH   ; Jute Gyte
 BOUNCE2		; (Freedoom)
-SORBLEXP	SWITCH   ; Jute Gyte
+SORBLEXP	; (Freedoom)
 DRAGSIT1	SWITCH   ; Jute Gyte
 WING1		SWITCH   ; Jute Gyte
 DRAGPN2	SWITCH   ; Jute Gyte
@@ -236,26 +236,26 @@ KORATK		SWITCH   ; Jute Gyte
 KORCOM		SWITCH   ; Jute Gyte
 KORDTH1	SWITCH   ; Jute Gyte
 STEP		; (Freedoom)
-GRTNGS1	SWITCH   ; Jute Gyte
-READY1		SWITCH   ; Jute Gyte
-BLOOD1		SWITCH   ; Jute Gyte
-GAME1		SWITCH   ; Jute Gyte
-BOARD1		SWITCH   ; Jute Gyte
-WRSHIP1	SWITCH   ; Jute Gyte
-MAYBE1		SWITCH   ; Jute Gyte
-STRONG1	SWITCH   ; Jute Gyte
-FACE1		SWITCH   ; Jute Gyte
+GRTNGS1		; (Freedoom)
+READY1		GRTNGS1   ; PLACE HOLDER
+BLOOD1		GRTNGS1  ; PLACE HOLDER
+GAME1		GRTNGS1   ; PLACE HOLDER
+BOARD1		GRTNGS1   ; PLACE HOLDER
+WRSHIP1		GRTNGS1   ; PLACE HOLDER
+MAYBE1		GRTNGS1   ; PLACE HOLDER
+STRONG1		GRTNGS1   ; PLACE HOLDER
+FACE1		GRTNGS1  ; PLACE HOLDER
 PUP4		; RottKing (Freedoom attic)
-DORSTP3	SWITCH   ; Jute Gyte
+DORSTP3		; AntonR
 MTLSTRT1	SWITCH   ; Jute Gyte
-DORSTP1B	SWITCH   ; Jute Gyte
-STNMV4		SWITCH   ; Jute Gyte
+DORSTP1B	; AntonR
+STNMV4		; (Freedoom)
 MTLMV3		SWITCH   ; Jute Gyte
 DRLTCH3A	SWITCH   ; Jute Gyte
-LOCKED		SWITCH   ; Jute Gyte
+LOCKED		; (LibreQuake attic)
 STMDR1		SWITCH   ; Jute Gyte
 DRSTP2		SWITCH   ; Jute Gyte
-DORSTP4	SWITCH   ; Jute Gyte
+DORSTP4		; AntonR
 DRSTP7		SWITCH   ; Jute Gyte
 DRCRK5A	SWITCH   ; Jute Gyte
 	
@@ -275,30 +275,30 @@ CLHMM		; (Freedoom)
 MGHMM		CLHMM   ; PLACE HOLDER
 PUZSLV		SWITCH   ; Jute Gyte
 CHAT3		; Jute Gyte (Blasphemer)
-BATS		SWITCH   ; Jute Gyte
+BATS		; Jute (Blasphemer)
 	
 TICTOC	SWITCH   ; Jute Gyte
 	
-ETHPORT1	SWITCH   ; Jute Gyte
-CHNSWCH8	SWITCH   ; Jute Gyte
-SWTCH6		; AntonR
-PUZSLV1		SWITCH   ; Jute Gyte
-SWTCHV4		SWITCH   ; Jute Gyte
-SWTCHRP1		SWITCH   ; Jute Gyte
-BLASTR		SWITCH   ; Jute Gyte
-FLY3		SWITCH   ; Jute Gyte
-BELLRNG		SWITCH   ; Jute Gyte
-TREEBRK	SWITCH   ; Jute Gyte
-TREEBURN	SWITCH   ; Jute Gyte
+ETHPORT1	SWTCHV4   ; Jute Gyte
+CHNSWCH8	; AntonR
+SWTCH6		; (Freedoom)
+PUZSLV1		SWTCHV4   ; Jute Gyte
+SWTCHV4		; Jute Gyte (Blasphemer)
+SWTCHRP1	SWTCHV4   ; Jute Gyte
+BLASTR		SWTCHV4   ; Jute Gyte
+FLY3		SWTCHV4   ; Jute Gyte
+BELLRNG		SWTCHV4   ; Jute Gyte
+TREEBRK		; (Freedoom)
+TREEBURN	; (Blasphemer)
 ARMOREXP	SWITCH   ; Jute Gyte
 STRETCH3	SWITCH   ; Jute Gyte
 PUFF1	SWITCH   ; Jute Gyte
 TORCH2	SWITCH   ; Jute Gyte
 GLASS5	SWITCH   ; Jute Gyte
-FLECH4	SWITCH   ; Jute Gyte
+FLECH4	; (LibreQuake)
 THNDR1	; (LibreQuake)
-TPORT1	; AntonR
-POTBRK1	SWITCH   ; Jute Gyte
+TPORT1	; AntonR (Blasphemer)
+POTBRK1	; AntonR (Blasphemer)
 BLDDRP1	SWITCH   ; Jute Gyte
 	
 WIND3	; (Blasphemer)
@@ -319,7 +319,7 @@ OWL	SWITCH   ; Jute Gyte
 BIRD	SWITCH   ; Jute Gyte
 SHLURP	SWITCH   ; Jute Gyte
 BUBBLE	SWITCH   ; Jute Gyte
-DROP2	SWITCH   ; Jute Gyte
+DROP2	; AntonR (Blasphemer)
 ROCKS	SWITCH   ; Jute Gyte
 CHAINS	SWITCH   ; Jute Gyte
 GONG	; (Blasphemer)
@@ -330,7 +330,9 @@ STEEL2	SWITCH   ; Jute Gyte
 DSSECRET	; MoonDeLaAxel (Blasphemer)
 FGTJUMP		; (LibreQuake attic)
 PLRJUMP		; (Freedoom)
+MGJUMP MGGRUNT	; PLACE HOLDER
 TAURDTH1	; (Freedoom)
+FROSTY3		; AntonR
 
 ; List of Musics
 [musics]
@@ -1060,7 +1062,7 @@ SPIRR0			GOD1		8	7
 SPIRS0			GOD1		8	7
 SPIRT0			GOD1		7	6
 SPIRU0			GOD1		7	5
-MWNDA0			-139	-95	; Blox (Blasphemer attic)
+MWNDA0			-139	-95	; Bloax (Blasphemer attic)
 MWNDB0			-138	-85
 MWNDC0			GOD1		3	3
 MWNDD0			GOD1		3	3
@@ -2065,13 +2067,13 @@ BPFXF0		32	67
 BPFXG0		32	65
 BPFXH0		GOD1	9	9
 ETTNA1   ; All ETTN* frames made by Rei
-ETTNA2  ETTNA2A8
-ETTNA3  ETTNA3A7
-ETTNA4  ETTNA4A6
+ETTNA2
+ETTNA3
+ETTNA4
 ETTNA5
-ETTNA6	ETTNA4A6
-ETTNA7	ETTNA3A7
-ETTNA8	ETTNA2A8
+ETTNA6
+ETTNA7
+ETTNA8
 ETTNB1  
 ETTNB2B8 
 ETTNB3B7  
@@ -2366,7 +2368,7 @@ SORCW0	BISHA1			52	33
 SORCX0		BISHA1		54	38
 SORCY0		BISHA1		48	25
 SORCZ0	BISHA1			34	4
-SBMPA0		GOD1	9	12
+SBMPA0		9	12	; All SBM* by Bloax (Freedoom attic)
 SBMPB0		GOD1	9	12
 SBMPC0		GOD1	9	12
 SBMPD0		GOD1	9	12
@@ -3018,7 +3020,7 @@ TRDTN0		GOD1	48	138
 TRDTO0		GOD1	48	80
 TRDTP0		GOD1	38	37
 TRDTQ0		GOD1	26	37
-SUITA0		GOD1	18	77
+SUITA0		18	77	; CWolf (Blasphemer attic)
 SUITB0		GOD1	8	3
 SUITC0		GOD1	6	5
 SUITD0		GOD1	6	4
