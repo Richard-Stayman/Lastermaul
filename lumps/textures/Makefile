@@ -1,43 +1,27 @@
 
 CPP=../../scripts/simplecpp
 
-all: blasphem/texture1.lmp blasphdm/texture1.lmp
+all: lastermaul/texture1.lmp
 
-blasphem/texture1.lmp: textures.cfg
-	@mkdir -p blasphem
-	$(CPP) -DBLASPHEM < textures.cfg |                 \
-	./build-textures -compat_texture1=heretic/texture1.txt   \
-	                 -compat_texture2=heretic/texture2.txt   \
-	                 -compat_pnames=heretic/pnames.txt       \
-	                 -output_texture1=blasphem/texture1.lmp    \
-	                 -output_texture2=blasphem/texture2.lmp    \
-	                 -output_pnames=blasphem/pnames.lmp        \
-	                 -output_pnames_txt=blasphem/pnames.txt    \
+lastermaul/texture1.lmp: textures.cfg
+	@mkdir -p lastermaul
+	$(CPP) -DLASTERMAUL < textures.cfg |                 \
+	./build-textures -compat_texture1=hexen/texture1.txt   \
+	                 -compat_texture2=hexen/texture2.txt   \
+	                 -compat_pnames=hexen/pnames.txt       \
+	                 -output_texture1=lastermaul/texture1.lmp    \
+	                 -output_texture2=lastermaul/texture2.lmp    \
+	                 -output_pnames=lastermaul/pnames.lmp        \
+	                 -output_pnames_txt=lastermaul/pnames.txt    \
 	                 -sprites_dir=../../sprites
-	cp blasphem/texture1.lmp ../t1bsphem.lmp
-	cp blasphem/texture2.lmp ../t2bsphem.lmp
-	cp blasphem/pnames.lmp   ../pnbsphem.lmp
-
-blasphdm/texture1.lmp: textures.cfg
-	@mkdir -p blasphdm
-	$(CPP) -DBLASPHDM < textures.cfg |                         \
-	./build-textures -compat_texture1=heretic/texture1.txt     \
-			 -compat_texture2=heretic/texture2.txt   \
-	                 -compat_pnames=heretic/pnames.txt         \
-	                 -output_texture1=blasphdm/texture1.lmp    \
-	                 -output_texture2=blasphdm/texture2.lmp    \
-	                 -output_pnames=blasphdm/pnames.lmp        \
-	                 -output_pnames_txt=blasphdm/pnames.txt    \
-	                 -sprites_dir=../../sprites
-	cp blasphdm/texture1.lmp ../t1bsphdm.lmp
-	cp blasphdm/texture2.lmp ../t2bsphdm.lmp
-	cp blasphdm/pnames.lmp   ../pnbsphdm.lmp
+	cp lastermaul/texture1.lmp ../t1lstrml.lmp
+	cp lastermaul/texture2.lmp ../t2lstrml.lmp
+	cp lastermaul/pnames.lmp   ../pnlstrml.lmp
 
 clean:
-	$(RM) blasphem/texture1.lmp blasphdm/texture1.lmp \
-	      blasphem/texture2.lmp blasphdm/texture2.lmp \
-	      blasphem/pnames.lmp   blasphdm/pnames.lmp   \
-	      blasphem/pnames.txt   blasphdm/pnames.txt
-	$(RM) ../t1bsphem.lmp ../t2bsphem.lmp ../pnbsphem.lmp \
-	      ../t1bsphdm.lmp ../t2bsphdm.lmp ../pnbsphdm.lmp
-	-rmdir blasphem blasphdm
+	$(RM) lastermaul/texture1.lmp \
+	      lastermaul/texture2.lmp \
+	      lastermaul/pnames.lmp \
+	      lastermaul/pnames.txt
+	$(RM) ../t1lstrml.lmp ../t2lstrml.lmp ../pnlstrml.lmp
+	-rmdir lastermaul

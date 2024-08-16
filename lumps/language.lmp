@@ -49,6 +49,12 @@ TXT_MANA_BOTH = "Mana of Synergy";
 
 // Keys
 // WIP
+TXT_KEY_AXE = "Ogre Key";
+TXT_KEY_CASTLE = "Pentagram Key";
+
+TXT_NEED_KEY_AXE = "Ogre Key needed";
+TXT_NEED_KEY_CASTLE = "Pentagram Key needed";
+
 
 // Artifacts
 
