@@ -89,8 +89,8 @@ FONTA_S
 FONTA_E	*
 FONTB_S	*
 FONTB_E	*
-GENMIDI
-DMXGUS
+GENMIDI		; ~Auto generated (Freedoom)~
+DMXGUS		; ~Auto generated (Freedoom)~
 SNDCURVE
 
 ; List of definitions for TEXTURE1
@@ -3439,22 +3439,22 @@ MAN1F0        MAN1B0        9    38
 MAN1G0        MAN1C0    9    38
 MAN1H0        MAN1D0    8    38
 MAN1I0        MAN1C0    8    38
-MAN2A0        MAN1C0    40
-MAN2B0        MAN1C0    8    40
-MAN2C0        MAN1C0    8    40
-MAN2D0        MAN1C0    8    40
-MAN2E0        MAN1C0    8    40
-MAN2F0        MAN1C0    7    40
-MAN2G0        MAN1C0    8    40
-MAN2H0        MAN1C0    8    40
-MAN2I0        MAN1C0    8    40
-MAN2J0        MAN1C0    8    40
-MAN2K0        MAN1C0    7    40
-MAN2L0        MAN1C0    9    40
-MAN2M0        MAN1C0    9    40
-MAN2N0        MAN1C0    8    40
-MAN2O0        MAN1C0    8    40
-MAN2P0    MAN1C0        8    40
+MAN2A0            9    38 ; Talon1024 (Freedoom attic)
+MAN2B0            9    38
+MAN2C0            9    38
+MAN2D0            8    38
+MAN2E0        MAN2A0        8    38
+MAN2F0        MAN2B0        9    38
+MAN2G0        MAN2C0    9    38
+MAN2H0        MAN2D0    8    38
+MAN2I0        MAN2C0    8    38
+MAN2J0        MAN2A0    8    40
+MAN2K0        MAN2B0    7    40
+MAN2L0        MAN2C0    9    40
+MAN2M0        MAN2D0    9    40
+MAN2N0        MAN2C0    8    40
+MAN2O0        MAN2A0    8    40
+MAN2P0    MAN2B0        8    40
 MAN3A0            10    42 ; Talon1024 (Freedoom attic)
 MAN3B0            10    42
 MAN3C0            10    42
