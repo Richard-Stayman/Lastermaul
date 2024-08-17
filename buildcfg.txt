@@ -40,6 +40,7 @@ MAP02	TESTMAP		; Catoptromancy
 LSTRMAUL	; Empty tag lump
 IWADINFO	; Georgy Samoilov
 LANGUAGE	; Georgy Samoilov
+GLDEFS		; GZDoom
 PLAYPAL		; Da Werecat (Blasphemer pal), ReaperAA (CronosPal)
 COLORMAP	; ~Auto generated (Freedoom)~
 FOGMAP	COLORMAP
@@ -68,7 +69,7 @@ TRANTBL0	; Catoptromancy
 DEMO1
 DEMO2
 DEMO3
-TITLE
+TITLE		; Fredrik (Freedoom attic) PLACE HOLDER
 HELP1
 HELP2
 CREDIT
@@ -136,22 +137,22 @@ MGFALL		; RottKing (Blasphemer)
 FALLHIT		; apophis (LibTech1)
 PLRBURN	PLRPAIN3   ; PLACE HOLDER
 PUNCHMIS	; (Freedoom)
-PUNCH8		; (Freedoom)
-MUMPUN5	FALLHIT   ; PLACE HOLDER
-AXE5		FALLHIT   ; PLACE HOLDER
-HAMMIS2	FALLHIT   ; Jute Gyte
-HAMWAL1	FALLHIT   ; Jute Gyte
-HMHIT1A		FALLHIT   ; Jute Gyte
-HAMFLY1	FALLHIT   ; Jute Gyte
-IMPACT3		FALLHIT   ; Jute Gyte
+PUNCH8		; MoonDeLaAxel (Blasphemer)
+MUMPUN5		; (Freedoom)
+AXE5		; (Blasphemer)
+HAMMIS2	PUNCHMIS   ; PLACE HOLDER
+HAMWAL1	BOUNCE2   ; PLACE HOLDER
+HMHIT1A		AXE5   ; PLACE HOLDER
+HAMFLY1		; AntonR (Blasphemer)
+IMPACT3		BSHHIT2 ; PLACE HOLDER
 SWORD2		; (LibreQuake)
-GNTMIS1		FALLHIT   ; Jute Gyte
-SPELL1		FALLHIT   ; Jute Gyte
-GLBHIT4		FALLHIT   ; Jute Gyte
-VAMP5		SWITCH   ; Jute Gyte
+GNTMIS1		; (LibreQuake attic)
+SPELL1		; (Blasphemer)
+GLBHIT4		; (Blasphemer)
+VAMP5		; (Blasphemer)
 STRIKE3		SWITCH   ; Jute Gyte
 STRIKE1		SWITCH   ; Jute Gyte
-FIREDHIT	SWITCH   ; Jute Gyte
+FIREDHIT	SORBLEXP ; PLACE HOLDER
 HOLY3		; AntonR
 SPIRT7		SWITCH   ; Jute Gyte
 SPIRT5		SWITCH   ; Jute Gyte
@@ -160,7 +161,7 @@ WAND4		; AntonR
 LITE2		SWITCH   ; Jute Gyte
 GNTPOW		; MoonDeLaAxel (Blasphemer)
 WEPELE2	SWITCH   ; Jute Gyte
-GNTACT1	SWITCH   ; Jute Gyte
+GNTACT1		; Jute Gyte
 CONE3		SWITCH   ; Jute Gyte
 SHARDS1B	SWITCH   ; Jute Gyte
 MAGE4		SWITCH   ; Jute Gyte
@@ -168,7 +169,7 @@ MAGEBALL	SWITCH   ; Jute Gyte
 PIGRUNT1	; Jute (Blasphemer)
 SQUEAL1	SWITCH   ; Jute Gyte
 PIGPAIN2	; Jute (Blasphemer)
-BITE4		; (Freedoom)
+BITE4		; Jute (Blasphemer)
 PIGDTH2		; Jute (Blasphemer)
 SYAB2D		; (Freedoom)
 STB1D		; apophis (LibTech1)
@@ -180,7 +181,7 @@ BLUR6		; SuperSomariDX (Blasphemer)
 TAUR1		; (Freedoom)
 TAUR2		; (Freedoom)
 TAUR4		; (Freedoom)
-CENTHIT2	PUNCHMIS
+CENTHIT2	PUNCHMIS	; PLACE HOLDER
 CNTDTH1		; AntonR
 CNTSHLD4	SWITCH   ; Jute Gyte
 WTRCRT7	SWITCH   ; Jute Gyte
@@ -191,11 +192,11 @@ WTRHIT		SWITCH   ; Jute Gyte
 SRPDTH1	SWITCH   ; Jute Gyte
 SRFC1		SWITCH   ; Jute Gyte
 GLBHISS1	SWITCH   ; Jute Gyte
-SBTSIT5		SWITCH   ; Jute Gyte
+SBTSIT5		; (Blasphemer)
 MINACT1		MINSIT1 ; PLACEHOLDER
-DEMATK2	SWITCH   ; Jute Gyte
-SBTDTH3	SWITCH   ; Jute Gyte
-IMPFIRE2	SWITCH   ; Jute Gyte
+DEMATK2		; (Freedoom)
+SBTDTH3		; (Blasphemer)
+IMPFIRE2	; (Blasphemer)
 RAITH5A		; (LibreQuake attic)
 RAITH3		; (LibreQuake attic)
 RAITH4A		; (LibreQuake attic)
@@ -223,7 +224,7 @@ SORBOSS3	; (LibreQuake)
 WOOSH3		; AntonR
 BALLS1		SWITCH   ; Jute Gyte
 SORDIE2		; (LibreQuake)
-BISHAPP		SWITCH   ; Jute Gyte
+BISHAPP		BLUR6   ; PLACE HOLDER
 CORK		SWITCH   ; Jute Gyte
 BOUNCE2		; (Freedoom)
 SORBLEXP	; (Freedoom)
@@ -273,9 +274,9 @@ PIECE1		; (Blasphemer)
 ARTACT1		; (Blasphemer)
 RESPAWN		; (Blasphemer)
 FGTHMM		; (LibreQuake attic)
-CLHMM		; (Freedoom)
+CLHMM		; PLACE HOLDER (Freedoom)
 MGHMM		CLHMM   ; PLACE HOLDER
-PUZSLV		SWITCH   ; Jute Gyte
+PUZSLV		; AntonR (Blasphemer)
 CHAT3		; Jute Gyte (Blasphemer)
 BATS		; Jute (Blasphemer)
 	
@@ -284,14 +285,14 @@ TICTOC	SWITCH   ; Jute Gyte
 ETHPORT1	SWTCHV4   ; Jute Gyte
 CHNSWCH8	; AntonR
 SWTCH6		; (Freedoom)
-PUZSLV1		SWTCHV4   ; Jute Gyte
+PUZSLV1		CHAT3   ; PLACE HOLDER
 SWTCHV4		; Jute Gyte (Blasphemer)
 SWTCHRP1	SWTCHV4   ; Jute Gyte
 BLASTR		SWTCHV4   ; Jute Gyte
 FLY3		SWTCHV4   ; Jute Gyte
 BELLRNG		SWTCHV4   ; Jute Gyte
-TREEBRK		; (Freedoom)
-TREEBURN	; (Blasphemer)
+TREEBRK		; PLACE HOLDER (Freedoom)
+TREEBURN	IMPFIRE2 ; PLACE HOLDER
 ARMOREXP	SWITCH   ; Jute Gyte
 STRETCH3	SWITCH   ; Jute Gyte
 PUFF1	SWITCH   ; Jute Gyte
@@ -300,7 +301,7 @@ GLASS5	SWITCH   ; Jute Gyte
 FLECH4	; (LibreQuake)
 THNDR1	; (LibreQuake)
 TPORT1	; AntonR (Blasphemer)
-POTBRK1	; AntonR (Blasphemer)
+POTBRK1	HAMFLY1	; PLACE HOLDER
 BLDDRP1	SWITCH   ; Jute Gyte
 	
 WIND3	; (Blasphemer)
@@ -335,6 +336,8 @@ PLRJUMP		; (Freedoom)
 MGJUMP MGGRUNT	; PLACE HOLDER
 TAURDTH1	; (Freedoom)
 FROSTY3		; AntonR
+SBTACT1		; (Blasphemer)
+SBTPAIN1	; (Blasphemer)
 
 ; List of Musics
 [musics]

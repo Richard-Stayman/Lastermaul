@@ -147,8 +147,8 @@ SerpentFXHit            glbhit4
 ; Demon
 
 DemonSight              sbtsit5
-DemonActive             sbtsit5
-DemonPain               minact1
+DemonActive             sbtact1
+DemonPain               sbtpain1
 DemonAttack             dematk2
 DemonDeath              sbtdth3
 DemonMissileFire        impfire2
