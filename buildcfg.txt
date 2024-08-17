@@ -152,7 +152,7 @@ GLBHIT4		; (Blasphemer)
 VAMP5		; (Blasphemer)
 STRIKE3		SWITCH   ; Jute Gyte
 STRIKE1		SWITCH   ; Jute Gyte
-FIREDHIT	SORBLEXP ; PLACE HOLDER
+FIREDHIT	BSHHIT2 ; PLACE HOLDER
 HOLY3		; AntonR
 SPIRT7		SWITCH   ; Jute Gyte
 SPIRT5		SWITCH   ; Jute Gyte
@@ -3494,65 +3494,65 @@ MAN3P0        MAN3D0    10    42
 [flats]
 F_001	FLOOR01
 F_002	FLOOR01
-F_003	FLOOR01	
+F_003	; (Blasphemer)
 F_004	FLOOR01
 F_005	FLOOR01
 F_006	FLOOR01
-F_007	; Craneo
+F_007	; Craneo (Blasphemer)
 F_008	FLOOR01
-F_009	FLOOR01
-F_010	FLOOR01
-F_011	FLOOR01
-F_012	FLOOR01
+F_009	; (Blasphemer)
+F_010	; (Blasphemer)
+F_011	; (Blasphemer)
+F_012	; (Blasphemer)
 F_013	FLOOR01
 F_014	FLOOR01
-F_015	FLOOR01
+F_015	; (Blasphemer)
 F_017	FLOOR01
 F_018	FLOOR01
-F_019	FLOOR01
+F_019	; (Blasphemer)
 F_020	FLOOR01
-F_021	FLOOR01
+F_021	; (Blasphemer)
 F_022	FLOOR01
 F_023	FLOOR01
-F_024	; Craneo
+F_024	; Craneo (Blasphemer)
 F_025	FLOOR01
 F_027	FLOOR01
 F_028	FLOOR01
 F_029	FLOOR01
 F_030	FLOOR01
-F_031	FLOOR01
+F_031	; (Blasphemer)
 F_032	; Georgy Samoilov
-F_033	; Craneo
-F_034	; Craneo
-F_037	FLOOR01
-F_038	FLOOR01
-F_039	; Craneo
-F_040	FLOOR01
+F_033	; Craneo (Blasphemer)
+F_034	; Craneo (Blasphemer)
+F_037	; (Blasphemer)
+F_038	; (Blasphemer)
+F_039	; Craneo (Blasphemer)
+F_040	; (Blasphemer)
 F_041	FLOOR01
 F_042	FLOOR01
 F_043	FLOOR01
 F_044	; (Freedoom)
-F_045	FLOOR01
-F_046	FLOOR01
-F_047	FLOOR01
+F_045	; (Blasphemer)
+F_046	; (Blasphemer)
+F_047	; (Blasphemer)
 F_048	FLOOR01
-F_049	FLOOR01
+F_049	; (Blasphemer)
 F_050	FLOOR01
 F_051	FLOOR01
 F_052	FLOOR01
-F_053	FLOOR01
-F_054	FLOOR01
-F_055	FLOOR01
-F_057	FLOOR01
+F_053	; (Blasphemer)
+F_054	; Craneo (Blasphemer)
+F_055	; (Blasphemer)
+F_057	; (Blasphemer)
 F_058	FLOOR01
-F_059	FLOOR01
+F_059	; (Blasphemer)
 F_061	FLOOR01
 F_062	FLOOR01
 F_063	FLOOR01
 F_064	FLOOR01
-F_065	FLOOR01
+F_065	; (Blasphemer)
 F_066	FLOOR01
-F_067	FLOOR01
+F_067	; (Blasphemer)
 F_068	FLOOR01
 F_069	; jmickle (Aquatex)
 F_070	; jmickle (Aquatex)
@@ -3561,29 +3561,29 @@ F_072	FLOOR01
 F_073	; jmickle (Aquatex)
 F_074	FLOOR01
 F_075	FLOOR01
-F_076	FLOOR01
+F_076	; (Blasphemer)
 F_077	FLOOR01
-F_078	FLOOR01
+F_078	; (Blasphemer)
 F_081	; raymoohawk (Freedoom attic)
-F_082	FLOOR01
+F_082	; (Blasphemer)
 F_083	FLOOR01
-F_084	FLOOR01
-F_085	FLOOR01
-F_086	FLOOR01
-F_087	FLOOR01
-F_088	FLOOR01
+F_084	; (Blasphemer)
+F_085
+F_086
+F_087
+F_088
 F_089	FLOOR01
 F_091	FLOOR01
-F_092	FLOOR01
+F_092	; (Blasphemer)
 X_001	; Blastfrog (Freedoom attic)
 X_002
 X_003
 X_004
-X_005	FLOOR01
-X_006	FLOOR01
-X_007	FLOOR01
-X_008	FLOOR01
-X_009	; Craneo
+X_005	; Blastfrog (Freedoom attic)
+X_006
+X_007
+X_008
+X_009	; Craneo (Blasphemer)
 X_010
 X_011
 X_012	; (Blasphemer)
