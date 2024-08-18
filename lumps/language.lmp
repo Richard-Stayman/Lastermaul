@@ -5,7 +5,25 @@
 SECRETMESSAGE = "A terrible secret has been discovered...";
 
 // Obituaries
-// WIP
+OB_FIREDEMON = "%o was melted by a ravon";
+OB_DEMON1 = "%o was incinerated by a saurian";
+OB_DEMON2 = "%o was nuked by a dark saurian";
+OB_ETTIN = "%o was slaughtered by a sluagh";
+OB_CENTAUR = "%o was cut up by a gigagremlin";
+OB_SLAUGHTAURHIT = "%o was cut up by a gargantua";
+OB_SLAUGHTAUR = "%o was haunted by a gargantua";
+OB_BISHOP = "%o was scourged by the grell";
+OB_ICEGUY = "%o was petrified by a gorgon";
+OB_SERPENTHIT = "%o was drowned by a goon";
+OB_SERPENT = "%o was stained by a goon";
+OB_WRAITH = "%o was bewitched by a nightshade";
+OB_WRAITHHIT = "%o was scared by a nightshade";
+OB_DRAGON = "%o was exiled to the underworld by the Fallen";
+OB_KORAX = "%o was swept from the board by Hades";
+OB_FBOSS = "%o was slain by the Conqueror";
+OB_MBOSS = "%o couldn't absorb Blasphemer's Mana";
+OB_CBOSS = "%o was baptized by the Worshipper.";
+OB_HERESIARCH = "%o had %p bones rolled by the Bosheit";
 
 // Item tags: Hexen weapons
 TAG_CWEAPMACE = "Mace";
@@ -61,26 +79,26 @@ TXT_NEED_KEY_CASTLE = "Pentagram Key needed";
 TXT_ARTIINVULNERABILITY2 = "Titan's Heart";
 TXT_ARTISUMMON = "Eye of the Ogre";
 TXT_ARTIEGG2 = "Jinxmorpher";
-TXT_ARTIPOISONBAG = "Jarate";
+TXT_ARTIPOISONBAG = "Master's Spell";
 TXT_ARTITELEPORTOTHER = "Oblivion Rift";
 TXT_ARTISPEED = "Quickwalker";
 TXT_ARTIBOOSTMANA = "Chalice of Aether";
 TXT_ARTIBOOSTARMOR = "Prisoner's Shackles";
-TXT_ARTIBLASTRADIUS = "Spell of Repulsion";
-TXT_ARTIHEALINGRADIUS = "Grail of Lifeblood";
+TXT_ARTIBLASTRADIUS = "Spell of Reflection";
+TXT_ARTIHEALINGRADIUS = "Daemon Contract";
 
 // Puzzle artifacts
 
 TXT_ARTIPUZZSKULL = "Skull Sculpture";
-TXT_ARTIPUZZGEMBIG = "Gyte's Head";
-TXT_ARTIPUZZGEMRED = "Ruby Gem";
-TXT_ARTIPUZZGEMGREEN1 = "Emerald Gem 1";
-TXT_ARTIPUZZGEMGREEN2 = "Emerald Gem 2";
-TXT_ARTIPUZZGEMBLUE1 = "Sapphire Gem 1";
-TXT_ARTIPUZZGEMBLUE2 = "Sapphire Gem 2";
+TXT_ARTIPUZZGEMBIG = "Gyte's Mask";
+TXT_ARTIPUZZGEMRED = "Blood Amber Gem";
+TXT_ARTIPUZZGEMGREEN1 = "Pearl Gem 1";
+TXT_ARTIPUZZGEMGREEN2 = "Pearl Gem 2";
+TXT_ARTIPUZZGEMBLUE1 = "Dark Gem 1";
+TXT_ARTIPUZZGEMBLUE2 = "Dark Gem 2";
 TXT_ARTIPUZZBOOK1 = "Black Grimoire Vol.2";
 TXT_ARTIPUZZBOOK2 = "Hereticon";
-TXT_ARTIPUZZSKULL2 = "Totem of Raven";
+TXT_ARTIPUZZSKULL2 = "Raven Totem";
 TXT_ARTIPUZZFWEAPON = "Conqueror's Key";
 TXT_ARTIPUZZCWEAPON = "Worshipper's Key";
 TXT_ARTIPUZZMWEAPON = "Blasphemer's Key";
@@ -89,8 +107,8 @@ TXT_USEPUZZLEFAILED = "Uh-uh, not here";
 
 // Items
 
-TXT_ARMOR1 = "Armor of Conquest";
-TXT_ARMOR2 = "Shield of Service";
+TXT_ARMOR1 = "Plate of Conquest";
+TXT_ARMOR2 = "Occult Shield";
 TXT_ARMOR3 = "Helmet of the Doomed";
 TXT_ARMOR4 = "Blasphemy Charm";
 
@@ -114,9 +132,10 @@ TXT_BLOODSCOURGE_PIECE = "Segment of Superscepter";
 
 FN_FIREDEMON = "Ravon";
 FN_DEMON1 = "Saurian";
+FN_DEMON2 = "Dark Saurian"
 FN_ETTIN = "Sluagh";
-FN_CENTAUR = "Servant of Chthon";
-FN_SLAUGHTAUR = "Servant of Cthulhu";
+FN_CENTAUR = "Gigagremlin";
+FN_SLAUGHTAUR = "Gargantua";
 FN_BISHOP = "Grell";
 FN_ICEGUY = "Gorgon";
 FN_SERPENT = "Goon";
@@ -128,15 +147,15 @@ FN_MBOSS = "Worshipper";
 FN_CBOSS = "Blasphemer";
 FN_HERESIARCH = "Bosheit";
 
-AMMO_MANA1			= "Mana of Creation";
-AMMO_MANA2			= "Mana of Destruction";
+AMMO_MANA1 = "Mana of Creation";
+AMMO_MANA2 = "Mana of Destruction";
 
 // Menu Strings
 
 // Main Menu
 
 // Skills
-MNU_CHOOSESKILL		= "Difficulty of your trial:";
+MNU_CHOOSESKILL	= "Difficulty of your trial:";
 
 MNU_WETNURSE = "Whimpering Craven";
 MNU_YELLOWBELLIES = "Still a Novice";
