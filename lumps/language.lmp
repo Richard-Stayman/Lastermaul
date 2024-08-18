@@ -33,7 +33,7 @@ TAG_CWEAPWRAITHVERGE = "Spiritridge";
 TAG_FWEAPFIST = "Fists";
 TAG_FWEAPAXE = "Vorpal Sword";
 TAG_FWEAPHAMMER = "Hammer";
-TAG_FWEAPQUIETUS = "Vanguard of the Gods";
+TAG_FWEAPQUIETUS = "Supersword";
 TAG_MWEAPWAND = "Elder Wand";
 TAG_MWEAPFROST = "Gorgon's Head";
 TAG_MWEAPLIGHTNING = "Skull of the Archmage";
@@ -76,11 +76,11 @@ TXT_NEED_KEY_CASTLE = "Pentagram Key needed";
 
 // Artifacts
 
-TXT_ARTIINVULNERABILITY2 = "Titan's Heart";
+TXT_ARTIINVULNERABILITY2 = "Vanguard of the Gods";
 TXT_ARTISUMMON = "Eye of the Ogre";
 TXT_ARTIEGG2 = "Jinxmorpher";
 TXT_ARTIPOISONBAG = "Master's Spell";
-TXT_ARTITELEPORTOTHER = "Oblivion Rift";
+TXT_ARTITELEPORTOTHER = "Mask of Oblivion";
 TXT_ARTISPEED = "Quickwalker";
 TXT_ARTIBOOSTMANA = "Chalice of Aether";
 TXT_ARTIBOOSTARMOR = "Prisoner's Shackles";
@@ -116,7 +116,7 @@ TXT_ARMOR4 = "Blasphemy Charm";
 
 TXT_WEAPON_F2 = "Vorpal Sword";
 TXT_WEAPON_F3 = "HAMMER";
-TXT_WEAPON_F4 = "Vanguard Unleashed";
+TXT_WEAPON_F4 = "Supersword";
 TXT_WEAPON_C2 = "Bloodleech";
 TXT_WEAPON_C3 = "Hazebone";
 TXT_WEAPON_C4 = "Spiritridge Unleashed";
@@ -124,7 +124,7 @@ TXT_WEAPON_M2 = "Gorgon's Head";
 TXT_WEAPON_M3 = "Skull of the Archmage";
 TXT_WEAPON_M4 = "Superscepter Unleashed";
 TXT_WEAPONPIECE = "A weapon piece! This is your lucky day! :)";
-TXT_QUIETUS_PIECE = "Segment of Vanguard";
+TXT_QUIETUS_PIECE = "Segment of Supersword";
 TXT_WRAITHVERGE_PIECE = "Segment of Spiritridge";
 TXT_BLOODSCOURGE_PIECE = "Segment of Superscepter";
 
