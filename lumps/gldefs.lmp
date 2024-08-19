@@ -10,7 +10,7 @@
 flickerlight CAXEPUFF1
 {
     attenuate 1
-	color 0.4 0.4 1.0
+	color 0.4 1.0 0.4
     size 60
     secondarysize 66
     chance 0.5
@@ -19,7 +19,7 @@ flickerlight CAXEPUFF1
 flickerlight CAXEPUFF2
 {
     attenuate 1
-	color 0.2 0.2 0.8
+	color 0.2 0.8 0.2
     size 72
     secondarysize 78
     chance 0.5
@@ -28,7 +28,7 @@ flickerlight CAXEPUFF2
 flickerlight CAXEPUFF3
 {
     attenuate 1
-	color 0.0 0.0 0.5
+	color 0.0 0.5 0.0
     size 66
     secondarysize 72
     chance 0.5
@@ -208,14 +208,14 @@ object FSwordMissile
 pointlight CSTAFFBALL
 {
     attenuate 1
-	color 0.0 1.0 0.0
+	color 1.0 0.0 0.0
     size 60
 }
 
 flickerlight CSTAFFBALL_X1
 {
     attenuate 1
-	color 0.0 1.0 0.0
+	color 1.0 0.0 0.0
     size 84
     secondarysize 96
     chance 0.3
@@ -224,7 +224,7 @@ flickerlight CSTAFFBALL_X1
 flickerlight CSTAFFBALL_X2
 {
     attenuate 1
-	color 0.0 0.7 0.0
+	color 0.7 0.0 0.0
     size 90
     secondarysize 104
     chance 0.3
@@ -233,7 +233,7 @@ flickerlight CSTAFFBALL_X2
 flickerlight CSTAFFBALL_X3
 {
     attenuate 1
-	color 0.0 0.5 0.0
+	color 0.5 0.0 0.0
     size 96
     secondarysize 108
     chance 0.3
@@ -242,7 +242,7 @@ flickerlight CSTAFFBALL_X3
 flickerlight CSTAFFBALL_X4
 {
     attenuate 1
-	color 0.0 0.3 0.0
+	color 0.3 0.0 0.0
     size 108
     secondarysize 120
     chance 0.3
@@ -396,7 +396,7 @@ object MageWandMissile
 flickerlight MFROSTSHARD
 {
     attenuate 1
-	color 0.3 0.3 1.0
+	color 0.3 1.0 0.3
     size 48
     secondarysize 60
     chance 0.3
@@ -405,7 +405,7 @@ flickerlight MFROSTSHARD
 flickerlight MFROSTSHARD_X1
 {
     attenuate 1
-	color 0.3 0.3 1.0
+	color 0.3 1.0 0.3
     size 60
     secondarysize 72
     chance 0.3
@@ -414,7 +414,7 @@ flickerlight MFROSTSHARD_X1
 flickerlight MFROSTSHARD_X2
 {
     attenuate 1
-	color 0.2 0.2 0.8
+	color 0.2 0.8 0.2
     size 72
     secondarysize 84
     chance 0.3
@@ -423,7 +423,7 @@ flickerlight MFROSTSHARD_X2
 flickerlight MFROSTSHARD_X3
 {
     attenuate 1
-	color 0.1 0.1 0.5
+	color 0.1 0.5 0.1
     size 84
     secondarysize 96
     chance 0.3
@@ -432,7 +432,7 @@ flickerlight MFROSTSHARD_X3
 flickerlight MFROSTSHARD_X4
 {
     attenuate 1
-	color 0.0 0.0 0.2
+	color 0.0 0.2 0.0
     size 96
     secondarysize 104
     chance 0.3
