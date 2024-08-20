@@ -108,11 +108,11 @@ PNAMES   = pnlstrml
 [sounds]
 DEFAULT		ART1	; PLACE HOLDER
 BLANK		PUP4	; PLACE HOLDER
-FGTDDTH		; All FGT* and pois2 sounds from LibreQuake attic
-FGTCDTH
+FGTDDTH		; Ivan Void (LibreQuake attic)
+FGTCDTH		; Ivan Void (LibreQuake attic)
 FGTXDTH1	FGTXDTH3	; PLACE HOLDER
 FGTXDTH2	FGTXDTH3	; PLACE HOLDER
-FGTXDTH3	
+FGTXDTH3	; Ivan Void (LibreQuake attic)
 PLRDTH		; (Freedoom)
 PLRCDTH		FALL1 ; PLACE HOLDER
 CLXDTH1	FALL1  ; PLACE HOLDER
@@ -123,15 +123,15 @@ MGCDTH		; RottKing (Blasphemer)
 MGXDTH1		; RottKing (Blasphemer)
 MGXDTH2	MGXDTH1	; PLACE HOLDER
 MGXDTH3	MGXDTH1	; PLACE HOLDER
-FGTPAIN		; (LibreQuake attic)
+FGTPAIN		; Ivan Void (LibreQuake attic)
 PLRPAIN3	; (Freedoom)
 MGPAIN		; RottKing (Blasphemer)
-FGTGRUNT	; (LibreQuake attic)
+FGTGRUNT	; Ivan Void (LibreQuake attic)
 GRUNT1		; (Freedoom)
 MGGRUNT		; RottKing (Blasphemer)
 FEET4		; (Freedoom)
-POIS2		; (LibreQuake attic)
-FGTFALL		; (LibreQuake attic)
+POIS2		; Ivan Void (LibreQuake attic)
+FGTFALL		; Ivan Void (LibreQuake attic)
 FALL1		; (Freedoom)
 MGFALL		; RottKing (Blasphemer)
 FALLHIT		; apophis (LibTech1)
@@ -146,7 +146,7 @@ HMHIT1A		AXE5   ; PLACE HOLDER
 HAMFLY1		; AntonR (Blasphemer)
 IMPACT3		BSHHIT2 ; PLACE HOLDER
 SWORD2		; (LibreQuake)
-GNTMIS1		; (LibreQuake attic)
+GNTMIS1		; Ivan Void (LibreQuake attic)
 SPELL1		; (Blasphemer)
 GLBHIT4		; (Blasphemer)
 VAMP5		; (Blasphemer)
@@ -158,14 +158,14 @@ SPIRT7		SWITCH   ; Jute Gyte
 SPIRT5		SWITCH   ; Jute Gyte
 SPIRTS1		SWITCH   ; Jute Gyte
 WAND4		; AntonR
-LITE2		SWITCH   ; Jute Gyte
+LITE2		BLUR6   ; PLACE HOLDER
 GNTPOW		; MoonDeLaAxel (Blasphemer)
 WEPELE2	SWITCH   ; Jute Gyte
-GNTACT1		; Jute Gyte
+GNTACT1		; Joed (Freedoom attic)
 CONE3		SWITCH   ; Jute Gyte
 SHARDS1B	SWITCH   ; Jute Gyte
-MAGE4		SWITCH   ; Jute Gyte
-MAGEBALL	SWITCH   ; Jute Gyte
+MAGE4		; (Freedoom)
+MAGEBALL	SORBLEXP   ; PLACE HOLDER
 PIGRUNT1	; Jute (Blasphemer)
 SQUEAL1	SWITCH   ; Jute Gyte
 PIGPAIN2	; Jute (Blasphemer)
@@ -228,10 +228,10 @@ BISHAPP		BLUR6   ; PLACE HOLDER
 CORK		SWITCH   ; Jute Gyte
 BOUNCE2		; (Freedoom)
 SORBLEXP	; (Freedoom)
-DRAGSIT1	SWITCH   ; Jute Gyte
-WING1		SWITCH   ; Jute Gyte
-DRAGPN2	SWITCH   ; Jute Gyte
-DRAGDIE2	SWITCH   ; Jute Gyte
+DRAGSIT1	; Elon Satoshi (Freedoom attic)
+WING1		PUNCHMIS   ; PLACE HOLDER
+DRAGPN2		; Elon Satoshi (Freedoom attic)
+DRAGDIE2	; Elon Satoshi (Freedoom attic)
 KORSIT		SWITCH   ; Jute Gyte
 KORACT		SWITCH   ; Jute Gyte
 KORPN1		SWITCH   ; Jute Gyte
@@ -273,7 +273,7 @@ PICUP5		; MoonDeLaAxel (Blasphemer)
 PIECE1		; (Blasphemer)
 ARTACT1		; (Blasphemer)
 RESPAWN		; (Blasphemer)
-FGTHMM		; (LibreQuake attic)
+FGTHMM		; Ivan Void (LibreQuake attic)
 CLHMM		; PLACE HOLDER (Freedoom)
 MGHMM		CLHMM   ; PLACE HOLDER
 PUZSLV		; AntonR (Blasphemer)
@@ -331,7 +331,7 @@ STEEL2	SWITCH   ; Jute Gyte
 
 ; Lastermaul extra sounds
 DSSECRET	; MoonDeLaAxel (Blasphemer)
-FGTJUMP		; (LibreQuake attic)
+FGTJUMP		; Ivan Void (LibreQuake attic)
 PLRJUMP		; (Freedoom)
 MGJUMP MGGRUNT	; PLACE HOLDER
 TAURDTH1	; (Freedoom)
@@ -344,27 +344,27 @@ SBTPAIN1	; (Blasphemer)
 WINNOWR	; "Oracle Night" by Alfonzo (Realm of Parthoris)
 JACHR	; "Mystic Tides" by Alfonzo (Realm of Parthoris)
 SIMONR	; "Plasma" by Ilkallio (Realm of Parthoris)
-WUTZITR	MUS_TITL
+WUTZITR	; "The Rivers Run Red" by Josephus "J.Astartes" Astartes (Freedoom attic)
 FALCONR	; "Mystified" by Tristan Clark (Rebirth MIDI Pack)
 LEVELR	MUS_TITL
 CHARTR	MUS_TITL
-SWAMPR	MUS_TITL
+SWAMPR	; "Hail the Severed Head" by Lippeth (Alien Vendetta MIDI Pack)
 DEEPR	; "Sombre Visions" by Tristan Clark (Rebirth MIDI Pack)
 FUBASR	; "Shadows" by Tristan Clark (Rebirth MIDI Pack)
 GROVER	; "Frigid Weald" by Lippeth (Misc Hexen MIDIs)
 FORTR	MUS_TITL
 FOOJAR	MUS_TITL
 SIXATER	MUS_TITL
-WOBABYR	MUS_TITL
+WOBABYR	; "Stigmatic Pantheon" by Lippeth (Realms of Cronos)
 CRYPTR	; "Thanatos" by Tristan Clark (Rebirth MIDI Pack)
 FANTAR	MUS_TITL
-BLECHR	MUS_TITL
+BLECHR	; hyena (Freedoom attic)
 VOIDR	; "The Occultist" by Tristan Clark (Realm of Parthoris)
 CHAP_1R	; "Always Watching" by Lippeth (Plutonia MIDI Pack)
 CHAP_2R		MUS_TITL
-CHAP_3R		MUS_TITL
+CHAP_3R	; "Death Mask" by Lippeth (Plutonia MIDI Pack)
 CHAP_4R	; "Lost In Place" by Lippeth (Plutonia MIDI Pack)
-CHIPPYR	; "Hail the Severed Head" by Lippeth (Alien Vendetta MIDI Pack)
+CHIPPYR	; "Spamhambled In Space" by Mark "TheMisterCat" McGill-Smith (Freedoom attic)
 PERCR	; "Saboteur" by Alfonzo (Realm of Parthoris)
 SECRETR		MUS_TITL
 BONESR		MUS_TITL
@@ -838,12 +838,12 @@ FAXEN0        -275    33
 FAXEO0        -148    14
 FAXEP0        -66    -39
 FAXEQ0        0    -123
-FAXER0		GOD1	16	19
-FAXES0		GOD1	15	21
-FAXET0		GOD1	25	24
-FAXEU0		GOD1	26	26
-FAXEV0		GOD1	26	26
-FAXEW0		GOD1	21	24
+FAXER0		BPFXC0		25	40
+FAXES0		BPFXD0		28	51
+FAXET0		BPFXE0		30	59
+FAXEU0		BPFXF0		32	67
+FAXEV0		BPFXG0		32	65
+FAXEW0		BPFXH0		31	54
 FAXEX0		GOD1	21	24
 FHMRA0    FSRDA0        -167    -84
 FHMRB0    FSRDA0            -253    20
@@ -1103,15 +1103,15 @@ SHEXB0			GOD1		17	16
 SHEXC0			GOD1		20	20
 SHEXD0			GOD1		19	24
 SHEXE0		GOD1			20	20
-MLNGA0			GOD1		-86	-106	; Amuscaria (Demon Eclipse)
-MLNGB0			GOD1		-88	-99
-MLNGC0		GOD1			-97	-96
-MLNGD0		GOD1			-95	-102
-MLNGE0		GOD1			-22	-84
-MLNGF0		GOD1			-29	-51
-MLNGG0			GOD1		0	-49
-MLNGH0			GOD1		0	-79
-MLNGI0			GOD1		0	-107
+MLNGA0			-90	-115	; Amuscaria (Demon Eclipse)
+MLNGB0			-87	-115
+MLNGC0			-90	-110
+MLNGD0			-90	-115
+MLNGE0			-90	-107
+MLNGF0			-90	-106
+MLNGG0			-90	-113
+MLNGH0			-87	-115
+MLNGI0			-90	-115
 MLFXA0			GOD1		31	48
 MLFXB0			GOD1		24	49
 MLFXC0			GOD1		24	47
@@ -2074,7 +2074,7 @@ BPFXD0		28	51
 BPFXE0		30	59
 BPFXF0		32	67
 BPFXG0		32	65
-BPFXH0		GOD1	9	9
+BPFXH0		31	54
 ETTNA1   ; All ETTN* frames made by Rei
 ETTNA2
 ETTNA3
@@ -2125,9 +2125,9 @@ ETTNL0
 ETTNM0 
 ETTNN0  
 ETTNO0  
-ETTNP0 26 13
-ETTNQ0	ETTNP0
-ETTNR0	ETTNP0
+ETTNP0 26	13
+ETTNQ0	ETTNP0	26	13
+ETTNR0
 ETTBA0		ETTNE1 	52	70
 ETTBM0		ETTNE1 	14	20
 ETTBB0		ETTNE1 	45	71
@@ -3047,13 +3047,13 @@ BBLLD0	GOD1		71	119
 BBLLE0		GOD1	83	119
 BBLLF0	GOD1		88	119
 BBLLG0	GOD1		92	119
-FBL1A0		GOD1	12	10
-FBL1B0	GOD1		14	13
-FBL1C0		GOD1	10	8
-FBL1D0	GOD1		8	7
-FBL1E0	GOD1		8	7
-FBL1F0		GOD1	7	6
-FBL1G0		GOD1	8	5
+FBL1A0		12	12	; Georgy Samoilov
+FBL1B0		12	12
+FBL1C0		12	13	; Espi
+FBL1D0		12	13
+FBL1E0		12	11
+FBL1F0		12	11
+FBL1G0		12	11
 ARRWA1		3	3 ; Cascade (ShatterEarth)
 ARRWA2A8	11	3
 ARRWA3A7	20	3
@@ -3130,21 +3130,21 @@ TSPKC0		GOD1	19	4
 TSPKD0		GOD1	22	8
 WATRA0		GOD1	0	1
 WATRB0		GOD1	8	8
-ABATA1		GOD1	11	20
-ABATA2A8	GOD1		9	22
-ABATA3A7		GOD1	8	22
-ABATA4A6		GOD1	9	21
-ABATA5		GOD1	11	19
-ABATB1		GOD1	23	4
-ABATB2B8	GOD1		11	5
-ABATB3B7	GOD1		7	5
-ABATB4B6		GOD1	16	5
-ABATB5		GOD1	23	4
-ABATC1		GOD1	11	17
-ABATC2C8	GOD1		9	17
-ABATC3C7		GOD1	8	17
-ABATC4C6		GOD1	10	18
-ABATC5		GOD1	11	17
+ABATA1   	 ; BigProjectAlone
+ABATA2A8   	 ; BigProjectAlone 
+ABATA3A7   	 ; BigProjectAlone 
+ABATA4A6   	 ; BigProjectAlone 
+ABATA5   	 ; BigProjectAlone 
+ABATB1   	 ; BigProjectAlone
+ABATB2B8   	 ; BigProjectAlone 
+ABATB3B7   	 ; BigProjectAlone 
+ABATB4B6   	 ; BigProjectAlone 
+ABATB5   	 ; BigProjectAlone 
+ABATC1   	 ; BigProjectAlone
+ABATC2C8    ; BigProjectAlone 
+ABATC3C7   	 ; BigProjectAlone 
+ABATC4C6   	 ; BigProjectAlone 
+ABATC5   	 ; BigProjectAlone 
 SGSAA0		GOD1	5	1
 SGSAB0		GOD1	3	2
 SGSAC0		GOD1	5	1
