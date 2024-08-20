@@ -9,5 +9,10 @@
 * HorrorMovieRei - sprites
 * raymoohawk - sprites, textures
 * AntonR - sounds, sprites
+* donowa - textures (w_304, w_361)
+* Lippeth - musics
+* Tristan Clark - musics
+
+See the buildcfg.txt file for *FULL* credits
 
 Also check blasphemer, freedoom and librequake credits at /docs!

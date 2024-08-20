@@ -367,7 +367,7 @@ CHAP_4R	; "Lost In Place" by Lippeth (Plutonia MIDI Pack)
 CHIPPYR	; "Spamhambled In Space" by Mark "TheMisterCat" McGill-Smith (Freedoom attic)
 PERCR	; "Saboteur" by Alfonzo (Realm of Parthoris)
 SECRETR		MUS_TITL
-BONESR		MUS_TITL
+BONESR	; "The Last Midnight" by Korp (Ichor 3D)
 OCTOR		MUS_TITL
 RITHMR		MUS_TITL
 STALKR		MUS_TITL
@@ -584,7 +584,7 @@ LIFEGMM8		LIFEGEM0	0	0
 LOADICON	GOD1	-2	-6
 SAVEICON	GOD1		-3	-6
 TELEICON	GOD1		-2	0
-M_HTIC	GOD1		0	-3
+M_HTIC		; Bradley Gratis CC0 font
 M_SLCTR1	LIFEGEM0		-1	-5
 M_SLCTR2		LIFEGEM0	-1	-5
 M_SKL00	 	GOD1	-10	-4  	;  Amuscaria/Freedoom
