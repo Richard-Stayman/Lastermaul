@@ -2,7 +2,7 @@
 
 image::graphics/m_htic.png[]
 
-Lastermaul is a Hexen-compatible spin-off to Lastermaul.
+Lastermaul is a Hexen-compatible spin-off to https://github.com/Catoptromancy/blasphemer[Blasphemer].
 
 At the moment, Lastermaul is at a very early stage of development. Any help is welcome.
 
