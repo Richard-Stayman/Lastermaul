@@ -11,6 +11,7 @@ At the moment, Lastermaul is at a very early stage of development. Any help is w
 Any limit-removing _Doom_ source port that is compatible with _Hexen_ can be used to play Lastermaul. Lastermaul is an iwad, meaning the complete set of resources required for a game but still requires an executable engine to be played. You can turn your favorite _Hexen_ pwads into Lovecraftian nightmares using Lastermaul.
 
 Make sure to use 
+[source,bash]
 -----------------
 -hexen
 -----------------

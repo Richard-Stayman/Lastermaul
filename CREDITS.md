@@ -7,7 +7,7 @@
 * Korp - sprites, textures
 * Cascade - sprites
 * HorrorMovieRei - sprites
-* raymoohawk - sprites, textures
+* raymoohawk - sprites, textures, Zauberer textures (w_035, w_036, w_062, w_073)
 * AntonR - sounds, sprites
 * donowa - textures (w_304, w_361)
 * Lippeth - musics

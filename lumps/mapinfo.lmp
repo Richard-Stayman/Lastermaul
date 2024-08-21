@@ -10,3 +10,11 @@ cluster 1
 sky1 SKY2 0
 sky2 SKY3 0
 lightning
+
+map 11 "ICE PRISON"
+warptrans 11
+next 12
+cluster 2
+sky1 SKY2 0
+sky2 SKY3 0
+lightning

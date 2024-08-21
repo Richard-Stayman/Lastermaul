@@ -1016,21 +1016,21 @@ object FireDemonMissile
 pointlight ICEGUYATK
 {
     attenuate 1
-	color 0.3 0.3 1.0
+	color 0.3 1.0 0.3
     size 96
 }
 
 pointlight ICEBALL
 {
     attenuate 1
-	color 0.3 0.3 1.0
+	color 0.3 1.0 0.3
     size 84
 }
 
 flickerlight ICEBALL_X1
 {
     attenuate 1
-	color 0.3 0.3 1.0
+	color 0.3 1.0 0.3
     size 84
     secondarysize 96
     chance 0.3
@@ -1039,7 +1039,7 @@ flickerlight ICEBALL_X1
 flickerlight ICEBALL_X2
 {
     attenuate 1
-	color 0.3 0.3 0.7
+	color 0.3 0.7 0.3
     size 96
     secondarysize 108
     chance 0.3
@@ -1048,7 +1048,7 @@ flickerlight ICEBALL_X2
 flickerlight ICEBALL_X3
 {
     attenuate 1
-	color 0.2 0.2 0.4
+	color 0.2 0.4 0.2
     size 108
     secondarysize 111
     chance 0.3
@@ -1057,7 +1057,7 @@ flickerlight ICEBALL_X3
 flickerlight ICEBALL_X4
 {
     attenuate 1
-	color 0.0 0.0 0.2
+	color 0.0 0.2 0.0
     size 111
     secondarysize 120
     chance 0.3
@@ -1066,7 +1066,7 @@ flickerlight ICEBALL_X4
 pointlight ICESHARD
 {
     attenuate 1
-	color 0.3 0.3 1.0
+	color 0.3 1.0 0.3
     size 60
 }
 
