@@ -4,6 +4,6 @@ IWad
 	AutoName = "Lastermaul"
 	Game = "Hexen"
 	Config = "Hexen"
-	StartupType = "Hexen"
+	StartupType = "Doom"
 	BannerColors = "ff ff ff", "c9 00 00"
 }

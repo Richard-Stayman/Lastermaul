@@ -67,11 +67,21 @@ TXT_MANA_BOTH = "Mana of Synergy";
 
 // Keys
 // WIP
-TXT_KEY_AXE = "Ogre Key";
-TXT_KEY_CASTLE = "Pentagram Key";
+TXT_KEY_STEEL = "Rune key";
+TXT_KEY_AXE = "Ogre key";
+TXT_KEY_FIRE = "Chalice key";
+TXT_KEY_EMERALD = "Jade key";
+TXT_KEY_DUNGEON = "Unholy key";
+TXT_KEY_SILVER = "Urn key";
+TXT_KEY_CASTLE = "Pentagram key";
 
-TXT_NEED_KEY_AXE = "Ogre Key needed";
-TXT_NEED_KEY_CASTLE = "Pentagram Key needed";
+TXT_KEY_STEEL = "Rune key needed";
+TXT_NEED_KEY_AXE = "Ogre key needed";
+TXT_NEED_KEY_FIRE = "Chalice key needed";
+TXT_NEED_KEY_EMERALD = "Jade key needed";
+TXT_NEED_KEY_DUNGEON = "Unholy key needed";
+TXT_NEED_KEY_SILVER = "Urn key needed";
+TXT_NEED_KEY_CASTLE = "Pentagram key needed";
 
 
 // Artifacts
@@ -82,7 +92,7 @@ TXT_ARTIEGG2 = "Jinxmorpher";
 TXT_ARTIPOISONBAG = "Master's Spell";
 TXT_ARTITELEPORTOTHER = "Mask of Oblivion";
 TXT_ARTISPEED = "Quickwalker";
-TXT_ARTIBOOSTMANA = "Chalice of Aether";
+TXT_ARTIBOOSTMANA = "Aether";
 TXT_ARTIBOOSTARMOR = "Prisoner's Shackles";
 TXT_ARTIBLASTRADIUS = "Spell of Reflection";
 TXT_ARTIHEALINGRADIUS = "Daemon Contract";
